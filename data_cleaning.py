@@ -1,3 +1,17 @@
+import pandas as pd
+
+# =============================
+# LOAD DATA FROM THE /data FOLDER
+# =============================
+
+dalys_df = pd.read_excel("data/DALY5yearsallcountries.xlsx")
+deaths_df = pd.read_excel("data/Deaths5yearsallcountries.xlsx")
+
+pm25_2015 = pd.read_excel("data/pm2.5_2015.xlsx")
+pm25_2016 = pd.read_excel("data/pm2.5_2016.xlsx")
+pm25_2017 = pd.read_excel("data/pm2.5_2017.xlsx")
+pm25_2018 = pd.read_excel("data/pm2.5_2018.xlsx")
+pm25_2019 = pd.read_excel("data/pm2.5_2019.xlsx")
 # =============================
 # CLEANING THE AIR POLLUTION DATA (PM2.5)
 # =============================
