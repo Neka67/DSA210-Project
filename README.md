@@ -15,7 +15,7 @@ To conduct this study, I will use publicly available datasets from the **World H
 
 ## Data Collection & Processing  
 
-### **Step 1: Obtain yearly air pollution and health data (2014-2018) from WHO**  
+### **Step 1: Obtain yearly air pollution and health data (2015-2019) from WHO**  
 - Download **PM2.5 air pollution levels** for all countries.  
 - Retrieve **annual respiratory disease statistics** (mortality rates, DALYs, age-standardized rates) for all countries.  
 
@@ -25,11 +25,10 @@ To conduct this study, I will use publicly available datasets from the **World H
 
 ### **Step 3: Analyze trends and correlations over time**  
 - **Time Series Analysis:** Plot trends in pollution and illness rates over five years to identify patterns.  
-- **Regression Analysis:** Check if increases in pollution levels predict increases in respiratory disease burden.  
-- **Lag Effect Investigation:** Determine if pollution levels from previous years influence current illness rates.  
-- **Comparative Analysis:** Compare illness rates in countries with increasing vs. decreasing pollution levels.  
+- **Regression Analysis:** Check if increases in pollution levels predict increases in respiratory disease burden.   
+- **Comparative Analysis:** Compare illness rates in countries with increasing vs. decreasing pollution levels.
+- **Hypothesis Tests:** Conduct hypothesis tests to test assumptions.
 
 ## Expected Outcomes  
-- Identify whether **increasing air pollution over time** is associated with a **rise in respiratory illnesses**.  
-- Determine whether there is a **lag effect**, where pollution changes take a few years to impact health.  
+- Identify whether **increasing air pollution over time** is associated with a **rise in respiratory illnesses**.    
 - Provide **visualizations (trend lines, scatter plots, heatmaps)** to illustrate the relationship between pollution and health trends.  
