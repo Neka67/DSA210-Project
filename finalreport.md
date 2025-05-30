@@ -301,7 +301,7 @@ As seen in the plot:
 - The **"elbow" point** — where adding more clusters yields diminishing returns — appears around **k = 4**.
 - Beyond k = 4, the curve flattens, meaning additional clusters don’t improve the model significantly.
 
-👉 **Therefore, k = 4 is chosen** as a balance between minimizing intra-cluster variation and avoiding overfitting.
+ **Therefore, k = 4 is chosen** as a balance between minimizing intra-cluster variation and avoiding overfitting.
 
 ![Alt text](images/download-34.png)
 
@@ -328,11 +328,11 @@ The clusters show a **clear upward trend**, supporting that higher pollution is 
 
 This confirms PM2.5 is a strong clustering feature for DALY outcomes.
 
-# ✅ Conclusion
+#  Conclusion
 
 This project examined the relationship between **PM2.5 air pollution** and global **health outcomes** using a mix of **Exploratory Data Analysis (EDA)**, **statistical hypothesis testing**, and **machine learning**.
 
-## 🔑 Key Findings
+##  Key Findings
 
 - **Strong correlations** were found between PM2.5 and both **DALY rates** and **pollution-linked death rates**, confirmed by visual and statistical analysis.
 - **Cardiovascular diseases**, not just respiratory illnesses, showed significant associations with air pollution exposure.
@@ -341,7 +341,7 @@ This project examined the relationship between **PM2.5 air pollution** and globa
 - **Logistic regression** effectively classified countries by pollution-related disease burden.
 - **KMeans clustering** revealed structured groupings of countries, reflecting both pollution levels and health impacts.
 
-## 📌 Final Insight
+##  Final Insight
 
 Air pollution is not just an environmental issue — it's a **global health crisis**.  
 Through data-driven insights, this study highlights the **critical need for pollution reduction efforts** to improve public health.  
